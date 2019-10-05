@@ -8,7 +8,7 @@ namespace NumeriBinari
         {
             Console.WriteLine("inserisci un numero decimale");
             int value = int.Parse(Console.ReadLine());
-            string binary = Convert.ToString(Value,2);
+            string binary = Convert.ToString(value,2);
             Console.ReadLine();
         }
     }
